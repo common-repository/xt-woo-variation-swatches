@@ -1,0 +1,27 @@
+:root{
+
+	// Single
+	--xt-woovs-single-vgap: 20px;
+	--xt-woovs-single-swatch-hgap: 10px;
+	--xt-woovs-single-swatch-vgap: 10px;
+
+	--xt-woovs-single-labels-per-row: 8;
+	--xt-woovs-single-label-flex: 0;
+
+	// Archives
+	--xt-woovs-archives-vgap: 20px;
+	--xt-woovs-archives-swatch-hgap: 10px;
+	--xt-woovs-archives-swatch-vgap: 10px;
+
+	--xt-woovs-archives-labels-per-row: 4;
+	--xt-woovs-archives-label-flex: 0;
+
+}
+
+.xt_woovs-disabled-clickable{
+	--xt-woovs-disabled-pointer-events: initial;
+}
+
+.xt_woovs-disabled-unclickable{
+	--xt-woovs-disabled-pointer-events: none;
+}

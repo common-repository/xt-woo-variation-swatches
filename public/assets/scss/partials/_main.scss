@@ -1,0 +1,252 @@
+body {
+	&.xt_woovs-enable-qv .xt_woovs-hidden,
+	&:not(.xt_woovs-enable-qv) div:not(.quick-view) .xt_woovs-hidden{
+		display: none !important;
+		visibility: hidden !important;
+	}
+}
+
+.xt_woovs-swatches-wrap{
+
+	table.variations{
+		display:block;
+		width: 100%;
+
+		tbody,
+		tbody tr {
+			display: block;
+			width: 100%;
+		}
+
+		td.label{
+			background: inherit;
+		}
+	}
+
+	&:not(.xt_woovs-attr-label-above){
+
+		.variations{
+			width: inherit!important;
+		}
+	}
+
+	&.xt_woovs-align-left{
+
+		~ div {
+			text-align: left;
+		}
+		.variations td,
+		.variations th,
+		.xt_woovs-swatches {
+			text-align: left;
+			justify-content: flex-start;
+		}
+	}
+	&.xt_woovs-align-center{
+
+		&:not(.xt_woovs-attr-label-above){
+			table.variations {
+				margin: 0 auto;
+			}
+		}
+		~ div {
+			text-align: center;
+		}
+		.variations,
+		.variations td,
+		.variations th,
+		.xt_woovs-swatches {
+			justify-content: center;
+			text-align: center;
+		}
+	}
+	&.xt_woovs-align-right{
+
+		~ div {
+			text-align: right;
+		}
+
+		&:not(.xt_woovs-attr-label-above){
+			table.variations {
+				margin: 0 0 0 auto;
+			}
+		}
+
+		.variations td,
+		.variations th,
+		.xt_woovs-swatches {
+			text-align: right;
+			justify-content: flex-end;
+
+			&.swatch:last-of-type{
+				margin-left: 0!important;
+			}
+		}
+	}
+
+}
+
+.xt_woovs-swatches {
+	box-sizing: border-box;
+	padding: 0!important;
+	margin: 0!important;
+
+	&:not(.xt_woovs-select-container) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	*{
+		box-sizing: border-box;
+	}
+	.swatch {
+		transition: all 0.2s;
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		cursor: pointer;
+		position: relative;
+		margin:0;
+		margin-top: -1px;
+		margin-right: var(--xt-woovs-swatch-hgap)!important;
+	}
+
+	.swatch_radio {
+		padding-left: 30px;
+		position: relative;
+		z-index: 999;
+		margin-left: 0px;
+		border: 1px solid #F00;
+
+		input[type=radio] {
+			position: absolute;
+			left: -20px;
+			top: 5px;
+			z-index: -1;
+			margin: 0px;
+		}
+	}
+
+	.swatch-label {
+		background-color: #f1f1f1;
+		width: auto!important;
+		padding: 0 10px;
+		overflow: hidden;
+
+		&.xt_woovs-round{
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		&.xt_woovs-round_corner {
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+	}
+
+	.swatch-image{
+		img{
+			height: auto;
+			max-width: 100%;
+			display: block;
+			box-shadow: none;
+			border:none;
+			margin: 0!important;
+		}
+		.swatch-image-inner{
+			width:100%!important;
+		}
+	}
+
+	.swatch-color,
+	.swatch-image  {
+		width: initial;
+		height: initial;
+		line-height: initial;
+		vertical-align: top;
+
+		figcaption {
+			overflow: hidden;
+			padding: 5px 0 5px;
+		}
+
+		&.xt_woovs-round .swatch-inner{
+			&,
+			img,
+			.swatch-color-inner-inner{
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				border-radius: 50%;
+			}
+		}
+
+		&.xt_woovs-round_corner .swatch-inner{
+			&,
+			img,
+			.swatch-color-inner-inner{
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+			}
+		}
+
+		&.xt_woovs-has-tooltip .swatch-color-name,
+		&.xt_woovs-has-tooltip .swatch-image-name {
+			display: none;
+		}
+
+		.swatch-color-name,
+		.swatch-image-name {
+			margin-top: 5px;
+			display: block;
+		}
+
+		.swatch-inner {
+			position: relative;
+			display: block;
+			transition: all 0.3s;
+			width: 100%;
+			height:100%;
+			overflow:hidden;
+
+			.swatch-color-inner-inner{
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+	}
+
+}
+
+.reset_variations{
+	margin-left: 0 !important;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: initial!important;
+	overflow:hidden;
+	display:none!important;
+
+	&.xt_woovs-reset-visible{
+		display:block!important;
+	}
+
+	.xt_woovs-catalog-mode &{
+		display:none!important;
+	}
+
+	.xt_woovs-reset-hide &{
+		display:none!important;
+	}
+}
+
+.xt_woovs-error{
+	box-shadow: 0px 0px 5px 4px rgba(255, 0, 0, 0.45);
+	padding: 10px 15px!important;
+	transition: all 0.3s;
+}

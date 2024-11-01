@@ -1,0 +1,841 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: XT Variation Swatches for WooCommerce\n"
+"POT-Creation-Date: 2021-11-10 18:25-0500\n"
+"PO-Revision-Date: 2020-01-29 17:05-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: xt-woo-variation-swatches.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: deploy\n"
+"X-Poedit-SearchPathExcluded-2: xt-framework\n"
+
+#: admin/class-admin-product.php:47
+msgid "Swatch Style"
+msgstr ""
+
+#: admin/class-admin-product.php:50 admin/customizer/fields/swatch-color.php:18
+#: admin/customizer/fields/swatch-image.php:18
+#: admin/customizer/fields/swatch-label.php:18
+msgid "Square"
+msgstr ""
+
+#: admin/class-admin-product.php:51 admin/customizer/fields/swatch-color.php:19
+#: admin/customizer/fields/swatch-image.php:19
+#: admin/customizer/fields/swatch-label.php:19
+msgid "Circle"
+msgstr ""
+
+#: admin/class-admin-product.php:52 admin/customizer/fields/swatch-color.php:20
+#: admin/customizer/fields/swatch-image.php:20
+#: admin/customizer/fields/swatch-label.php:20
+msgid "Rounded"
+msgstr ""
+
+#: admin/class-admin-product.php:60
+#: admin/customizer/fields/swatch-tooltip.php:11
+msgid "Swatch Tooltip"
+msgstr ""
+
+#: admin/class-admin-product.php:63 admin/class-admin.php:588
+#: admin/customizer/fields/swatch-color.php:43
+#: admin/customizer/fields/swatch-color.php:220
+#: admin/customizer/fields/swatch-image.php:43
+#: admin/customizer/fields/swatch-image.php:199
+#: admin/customizer/fields/swatch-label.php:419
+msgid "Disabled"
+msgstr ""
+
+#: admin/class-admin-product.php:64 admin/class-admin.php:589
+#: admin/customizer/fields/swatch-color.php:221
+#: admin/customizer/fields/swatch-image.php:200
+#: admin/customizer/fields/swatch-label.php:420
+msgid "Text"
+msgstr ""
+
+#: admin/class-admin-product.php:65 admin/class-admin-product.php:346
+#: admin/class-admin-product.php:384 admin/class-admin.php:590
+#: admin/customizer/fields/swatch-color.php:222
+#: admin/customizer/fields/swatch-image.php:201
+#: admin/customizer/fields/swatch-label.php:421 class-core.php:53
+msgid "Image"
+msgstr ""
+
+#: admin/class-admin-product.php:73
+msgid "Swatch Tooltip Image"
+msgstr ""
+
+#: admin/class-admin-product.php:88
+msgid "Swatch Tooltip Text"
+msgstr ""
+
+#: admin/class-admin-product.php:108
+msgid "Swatches"
+msgstr ""
+
+#: admin/class-admin-product.php:141
+msgid "product level swatch customizations that overrides global settings."
+msgstr ""
+
+#: admin/class-admin-product.php:247
+#: admin/customizer/fields/swatch-display.php:54
+#: admin/customizer/fields/swatch-general.php:106
+msgid "Global Attribute"
+msgstr ""
+
+#: admin/class-admin-product.php:247
+msgid "Quick Attribute"
+msgstr ""
+
+#: admin/class-admin-product.php:251 admin/class-admin-product.php:342
+msgid "Swatch Type"
+msgstr ""
+
+#: admin/class-admin-product.php:253
+msgid "Inherit Global"
+msgstr ""
+
+#: admin/class-admin-product.php:254
+msgid "Custom Colors"
+msgstr ""
+
+#: admin/class-admin-product.php:255
+msgid "Custom Images"
+msgstr ""
+
+#: admin/class-admin-product.php:256
+msgid "Custom Labels"
+msgstr ""
+
+#: admin/class-admin-product.php:345 admin/class-admin-product.php:367
+#: class-core.php:52
+msgid "Color"
+msgstr ""
+
+#: admin/class-admin-product.php:347 class-core.php:54
+msgid "Label"
+msgstr ""
+
+#: admin/class-admin-product.php:392 admin/class-admin-product.php:528
+#, php-format
+msgid "Add image(s) to %s"
+msgstr ""
+
+#: admin/class-admin-product.php:392 admin/class-admin-product.php:528
+msgid "Add image(s)"
+msgstr ""
+
+#: admin/class-admin-product.php:392 admin/class-admin-product.php:528
+#: admin/class-admin.php:567 admin/class-admin.php:608
+msgid "Upload/Add image"
+msgstr ""
+
+#: admin/class-admin-product.php:393 admin/class-admin-product.php:529
+#: admin/class-admin.php:568 admin/class-admin.php:609
+msgid "Remove image"
+msgstr ""
+
+#: admin/class-admin-product.php:430
+msgid "No attributes found!"
+msgstr ""
+
+#: admin/class-admin-product.php:431
+msgid ""
+"Add a at least one attribute / variation combination to this product. You "
+"will then be able to see the swatch configuration over here."
+msgstr ""
+
+#: admin/class-admin.php:67
+msgid "Single Product"
+msgstr ""
+
+#: admin/class-admin.php:72
+msgid "Archives / Shop"
+msgstr ""
+
+#: admin/class-admin.php:134
+msgid "Global Settings"
+msgstr ""
+
+#: admin/class-admin.php:144
+msgid "General Swatch Settings"
+msgstr ""
+
+#: admin/class-admin.php:151
+msgid "General Look & Feel"
+msgstr ""
+
+#: admin/class-admin.php:160
+msgid "Display Settings"
+msgstr ""
+
+#: admin/class-admin.php:168
+msgid "Label Swatch Settings"
+msgstr ""
+
+#: admin/class-admin.php:175
+msgid "Color Swatch Settings"
+msgstr ""
+
+#: admin/class-admin.php:182
+msgid "Image Swatch Settings"
+msgstr ""
+
+#: admin/class-admin.php:189
+msgid "Swatch Tooltip Settings"
+msgstr ""
+
+#: admin/class-admin.php:333
+msgid "Choose an image"
+msgstr ""
+
+#: admin/class-admin.php:334
+msgid "Use image"
+msgstr ""
+
+#: admin/class-admin.php:519
+msgid "Swatch"
+msgstr ""
+
+#: admin/class-admin.php:525
+msgid "Tooltip"
+msgstr ""
+
+#: admin/class-admin.php:531
+msgid "Tooltip Image"
+msgstr ""
+
+#: admin/class-admin.php:537
+msgid "Tooltip Text"
+msgstr ""
+
+#: admin/class-admin.php:552
+msgid "Premium Feature!"
+msgstr ""
+
+#: admin/class-admin.php:553
+msgid "Upgrade to Unlock!"
+msgstr ""
+
+#: admin/class-admin.php:567
+msgid "Add image to Attribute "
+msgstr ""
+
+#: admin/class-admin.php:608
+msgid "Add tooltip image"
+msgstr ""
+
+#: admin/class-admin.php:680
+msgid "Select terms"
+msgstr ""
+
+#: admin/class-admin.php:691
+msgid "Select all"
+msgstr ""
+
+#: admin/class-admin.php:692
+msgid "Select none"
+msgstr ""
+
+#: admin/customizer/fields/swatch-color.php:11
+msgid "Color Swatch Style"
+msgstr ""
+
+#: admin/customizer/fields/swatch-color.php:36
+msgid "Color Swatch Caption"
+msgstr ""
+
+#: admin/customizer/fields/swatch-color.php:37
+#: admin/customizer/fields/swatch-image.php:37
+msgid ""
+"If active, make sure the swatch size is big enough to show the caption. The "
+"caption font size will scale dynamically based on the swatch size. If your "
+"captions are too long, it's better to enable the tooltip instead."
+msgstr ""
+
+#: admin/customizer/fields/swatch-color.php:44
+#: admin/customizer/fields/swatch-image.php:44
+msgid "Enabled"
+msgstr ""
+
+#: admin/customizer/fields/swatch-color.php:53
+msgid "Color Swatch Width"
+msgstr ""
+
+#: admin/customizer/fields/swatch-color.php:119
+msgid "Color Swatch Height"
+msgstr ""
+
+#: admin/customizer/fields/swatch-color.php:144
+msgid "Color Swatch Inner Padding"
+msgstr ""
+
+#: admin/customizer/fields/swatch-color.php:165
+msgid "Color Swatch Border Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-color.php:181
+msgid "Color Swatch Hover Border Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-color.php:197
+msgid "Color Swatch Selected Border Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-color.php:213
+msgid "Color Swatch Tooltip"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:11
+msgid "Enable Catalog Mode"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:14
+#: admin/customizer/fields/swatch-display.php:26
+#: admin/customizer/fields/swatch-general.php:14
+#: admin/customizer/fields/swatch-general.php:26
+#: admin/customizer/fields/swatch-general.php:38
+#: admin/customizer/fields/swatch-general.php:85
+#: admin/customizer/fields/swatch-general.php:126
+#: admin/customizer/fields/swatch-general.php:139
+#: admin/customizer/fields/swatch-general.php:152
+#: admin/customizer/fields/swatch-general.php:164
+#: admin/customizer/fields/swatch-general.php:190
+#: admin/customizer/fields/swatch-global.php:17
+#: admin/customizer/fields/swatch-global.php:52
+#: admin/customizer/fields/swatch-label.php:41
+#: admin/customizer/fields/swatch-label.php:65
+#: admin/customizer/fields/swatch-styling.php:80
+msgid "No"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:15
+#: admin/customizer/fields/swatch-display.php:27
+#: admin/customizer/fields/swatch-general.php:15
+#: admin/customizer/fields/swatch-general.php:27
+#: admin/customizer/fields/swatch-general.php:39
+#: admin/customizer/fields/swatch-general.php:86
+#: admin/customizer/fields/swatch-general.php:127
+#: admin/customizer/fields/swatch-general.php:140
+#: admin/customizer/fields/swatch-general.php:153
+#: admin/customizer/fields/swatch-general.php:165
+#: admin/customizer/fields/swatch-general.php:191
+#: admin/customizer/fields/swatch-global.php:18
+#: admin/customizer/fields/swatch-global.php:53
+#: admin/customizer/fields/swatch-label.php:42
+#: admin/customizer/fields/swatch-label.php:66
+#: admin/customizer/fields/swatch-styling.php:81
+msgid "Yes"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:23
+msgid "Switch Image On Hover"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:42
+#: admin/customizer/fields/swatch-general.php:94
+msgid "Select Global Attributes"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:43
+msgid ""
+"Select global attributes that will be used as catalog mode. If more than one "
+"attribute is available for a product, only the first one will be shown."
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:47
+#: admin/customizer/fields/swatch-general.php:99
+msgid "Global attribute"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:70
+#: admin/customizer/fields/swatch-general.php:47
+msgid "Select Custom Attributes"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:71
+msgid ""
+"Enter custom attribute names that will be used as catalog mode. If more than "
+"one attribute is available for a product, only the first one will be shown."
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:75
+#: admin/customizer/fields/swatch-general.php:52
+msgid "Custom attribute"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:81
+#: admin/customizer/fields/swatch-general.php:65
+msgid "Custom Attribute"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:97
+msgid "Swatches Display Type"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:100
+#: admin/customizer/fields/swatch-general.php:203
+msgid "Inline"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:101
+msgid "Modal"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:102
+msgid "Drawer"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:121
+msgid "Swatches Visibility Type"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:124
+msgid "On Hover"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:125
+msgid "On Click"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:126
+msgid "Always Visible"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:151
+msgid "Swatches Modal / Drawer Width"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:188
+msgid "Swatches Modal / Drawer Min Height"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:225
+msgid "Swatches Drawer Position"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:228
+msgid "Bottom"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:229
+msgid "Top"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:230
+#: admin/customizer/fields/swatch-styling.php:17
+msgid "Left"
+msgstr ""
+
+#: admin/customizer/fields/swatch-display.php:231
+#: admin/customizer/fields/swatch-styling.php:19
+msgid "Right"
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:11
+msgid "Enable Swatches."
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:23
+msgid "Automatically convert Dropdowns to Label Swatch by default."
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:35
+msgid ""
+"Automatically convert Dropdowns to Image Swatch if variation has an image."
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:48
+msgid ""
+"Enter attribute names that will be converted to image swatches. If more than "
+"one attribute is available, only the first one will be converted. Note: this "
+"will only work if each variation has an image assigned."
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:81
+msgid "Use images from attribute options as a variation image preview."
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:82
+msgid ""
+"This could be useful if you have lot's of variations without images assigned "
+"to them. Instead of having to add an image for each variation, you can use "
+"the images that are already set within one of your Global or Custom "
+"attributes of type image."
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:95
+msgid ""
+"Select global attributes (image type) where their option images will be used "
+"as main image preview. If more than one attribute is available for a "
+"product, only the first one will be used."
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:122
+msgid "Deselect on Click"
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:123
+msgid "If a swatch is selected, clicking on it again will deselect it."
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:135
+msgid "Auto Select First Option after selecting at least 1 option"
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:136
+msgid ""
+"This will auto select first option of each attribute only after selecting at "
+"least 1 option. This will force the image to switch without having to select "
+"all options."
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:148
+msgid "Auto Select First Option on page load"
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:149
+msgid "This will auto select first option of each attribute by default"
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:161
+msgid "Hide Variation Reset Link"
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:187
+msgid "Show Quantity Field"
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:199
+msgid "Quantity Field Display"
+msgstr ""
+
+#: admin/customizer/fields/swatch-general.php:202
+msgid "Block"
+msgstr ""
+
+#: admin/customizer/fields/swatch-global.php:6
+#: admin/customizer/fields/swatch-global.php:14
+msgid "Disable Ajax Variation Threshold"
+msgstr ""
+
+#: admin/customizer/fields/swatch-global.php:8
+msgid ""
+"When your variable product has more than X variations, WooCommerce starts to "
+"use ajax to load your selected variation. This changes the way the dropdown "
+"fields / swatches work – where before you could select some options and "
+"others would become unavailable/disabled, now you have to select all options "
+"before finding out the variation you selected is not available. You can "
+"either disable ajax threshold or increase it to avoid that, however keep in "
+"mind that if a product has a lot of variations, loading them on demand via "
+"ajax is faster than loading them all at once."
+msgstr ""
+
+#: admin/customizer/fields/swatch-global.php:26
+msgid "Ajax Variation Threshold"
+msgstr ""
+
+#: admin/customizer/fields/swatch-global.php:48
+msgid "Hide out of stock variations"
+msgstr ""
+
+#: admin/customizer/fields/swatch-global.php:49
+msgid ""
+"If a variation is out of stock, it will either be hidden, blurred or blurred "
+"& crossed depending on the selected \"Disabled Attribute Behavior\" option "
+"within the \"Look & Feel\" section."
+msgstr ""
+
+#: admin/customizer/fields/swatch-image.php:11
+msgid "Image Swatch Style"
+msgstr ""
+
+#: admin/customizer/fields/swatch-image.php:36
+msgid "Image Swatch Caption"
+msgstr ""
+
+#: admin/customizer/fields/swatch-image.php:53
+msgid "Image Swatch Size"
+msgstr ""
+
+#: admin/customizer/fields/swatch-image.php:123
+msgid "Image Swatch Inner Padding"
+msgstr ""
+
+#: admin/customizer/fields/swatch-image.php:144
+msgid "Image Swatch Border Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-image.php:160
+msgid "Image Swatch Hover Border Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-image.php:176
+msgid "Image Swatch Selected Border Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-image.php:192
+msgid "Image Swatch Tooltip"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:11
+msgid "Label Swatch Style"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:34
+msgid "Label Swatch Flex Mode"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:58
+msgid "Stretch Label Swatch"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:87
+msgid "Max Swatches Per Row"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:88
+msgid "How many swatches would you like to display per row."
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:115
+msgid "Label Swatch Min Width"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:164
+msgid "Label Swatch Height"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:230
+msgid "Label Swatch Font Size"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:274
+msgid "Label Swatch Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:289
+msgid "Label Swatch Hover Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:304
+msgid "Label Swatch Selected Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:319
+msgid "Label Swatch Background"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:334
+msgid "Label Swatch Hover Background"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:349
+msgid "Label Swatch Selected Background"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:364
+msgid "Label Swatch Border Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:380
+msgid "Label Swatch Hover Border Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:396
+msgid "Label Swatch Selected Border Color"
+msgstr ""
+
+#: admin/customizer/fields/swatch-label.php:412
+msgid "Label Swatch Tooltip"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:11
+msgid "Swatches Alignment"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:18
+msgid "Center"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:50
+msgid "Attribute Label Position"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:56
+msgid "Inherit"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:57
+msgid "Above Swatches"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:58
+msgid "Hidden"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:74
+msgid "Show Attribute Selected Value"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:105
+msgid "Attribute Label Bottom Margin"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:134
+msgid "Disabled Attribute Behavior"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:135
+msgid ""
+"Only works for variations that are not loaded via ajax. You can adjust the "
+"ajax variation threshold within the global settings"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:135
+msgid "More Info."
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:141
+msgid "Hide"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:142
+msgid "Blur"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:143
+msgid "Blur + Cross"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:161
+msgid "Featured Attribute"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:168
+msgid "Featured Global Attribute"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:169
+msgid ""
+"Select a global attribute to be featured. Swatches will display larger than "
+"others."
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:171
+msgid "Select featured attribute"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:179
+msgid "Featured Custom Attribute"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:180
+msgid ""
+"Enter a custom attribute to be featured. Swatches will display larger than "
+"others."
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:182
+msgid "Custom attribute name"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:189
+msgid "Featured Attribute Size Multiplier"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:212
+msgid "Swatch Spacing"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:219
+msgid "Swatches Container Spacing"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:255
+msgid "Horizontal Gap Between Swatches"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:276
+msgid "Vertical Gap Between Swatches"
+msgstr ""
+
+#: admin/customizer/fields/swatch-styling.php:297
+msgid "Vertical Gap Between Attributes"
+msgstr ""
+
+#: admin/customizer/fields/swatch-tooltip.php:18
+msgid "Swatch Image Tooltip Size"
+msgstr ""
+
+#: admin/customizer/fields/swatch-tooltip.php:39
+msgid "Swatch Image Tooltip Padding"
+msgstr ""
+
+#: admin/customizer/fields/swatch-tooltip.php:65
+msgid "Swatch Tooltip Border Radius"
+msgstr ""
+
+#: admin/customizer/fields/swatch-tooltip.php:86
+msgid "Swatch Tooltip Background"
+msgstr ""
+
+#: admin/customizer/fields/swatch-tooltip.php:109
+msgid "Swatch Tooltip Text Color"
+msgstr ""
+
+#: public/functions-woocommerce.php:56
+msgid "This item is currently unavailable."
+msgstr ""
+
+#: public/templates/composite-variable.php:60
+msgid "Required option"
+msgstr ""
+
+#: public/templates/variable.php:84
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: public/templates/variable.php:114 public/templates/variable.php:137
+msgid "Clear"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: xt-woo-variation-swatches.php:40
+msgid "Variation Swatches for WooCommerce"
+msgstr ""
+
+#: xt-woo-variation-swatches.php:41
+msgid "Variation Swatches"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://xplodedthemes.com/products/woo-variation-swatches/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A WooCommerce extension that transforms variation dropdowns to beautiful "
+"color, image or label swatches. Image swatches will automatically be applied "
+"for variation color attributes that contains an image."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "XplodedThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://xplodedthemes.com"
+msgstr ""

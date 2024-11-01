@@ -1,0 +1,190 @@
+
+.xt_woovs-single-product{
+
+	.xt_woovs-hide-variation-price {
+		.single_variation_wrap{
+			.woocommerce-variation-price{
+				display: none!important;
+			}
+		}
+	}
+
+	.xt_woovs-swatches-wrap {
+
+		padding:0;
+
+		.label label {
+
+			abbr{
+				text-decoration: none!important;
+				border:0!important;
+				margin-right:5px;
+			}
+
+			> span{
+				display: none;
+			}
+		}
+
+		.xt_woovs-attribute-value {
+			opacity: 0;
+			visibility: hidden;
+			text-transform: capitalize;
+		}
+
+		&.xt_woovs-attr-show-selected {
+
+			.label label > span{
+				display: inline-block;
+			}
+			.xt_woovs-attribute-value{
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+
+		&.xt_woovs-attr-label-inherit {
+			.variations {
+				.label{
+					vertical-align: text-bottom;
+					padding-right: 30px;
+					min-width: 100px;
+				}
+				.value {
+					width:100%;
+				}
+				.xt_woovs-attribute-value {
+					display: block;
+				}
+			}
+		}
+
+		&.xt_woovs-attr-label-above {
+			.variations {
+				.label,
+				.value {
+					display: block;
+					label{
+						display:inline-block;
+					}
+				}
+			}
+		}
+
+		&.xt_woovs-attr-label-hidden {
+			.variations {
+				.label{
+					display: none;
+				}
+				.value {
+					display: block;
+				}
+			}
+		}
+
+		.variations {
+			padding-top: 0;
+			padding-bottom: 0;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.swatch{
+			margin-bottom: var(--xt-woovs-single-swatch-vgap) !important;
+		}
+		&.xt_woovs-align-left .swatch,
+		&.xt_woovs-align-center .swatch {
+			margin-right: var(--xt-woovs-single-swatch-hgap) !important;
+		}
+		&.xt_woovs-align-right .swatch {
+			margin-left: var(--xt-woovs-single-swatch-hgap) !important;
+		}
+		&.xt_woovs-align-center .xt_woovs-swatches{
+			margin-right: calc(0px - var(--xt-woovs-single-swatch-hgap)) !important;
+		}
+	}
+
+	.xt_woovs-swatches {
+
+		padding-bottom: var(--xt-woovs-single-vgap) !important;
+
+		&:not(.xt_woovs-select-container) {
+			margin-bottom: calc(0px - var(--xt-woovs-single-swatch-vgap))!important;
+		}
+	}
+
+	.swatch {
+
+		&.swatch-label {
+			min-width: 50px;
+			height: 30px;
+			line-height: 30px;
+			font-size: 13px;
+			color: #666;
+			background-color: #fff;
+			box-shadow: inset 0 0 0 1px #ddd;
+
+			&.xt_woovs-swatch-flex {
+				flex: var(--xt-woovs-single-label-flex) 0 calc((100% / var(--xt-woovs-single-labels-per-row)) - var(--xt-woovs-single-swatch-hgap));
+
+				.xt_woovs-featured-2 & {
+					flex: var(--xt-woovs-single-label-flex) 0 calc((100% / calc(var(--xt-woovs-single-labels-per-row) * 0.9)) - var(--xt-woovs-single-swatch-hgap));
+				}
+
+				.xt_woovs-featured-3 & {
+					flex: var(--xt-woovs-single-label-flex) 0 calc((100% / calc(var(--xt-woovs-single-labels-per-row) * 0.8)) - var(--xt-woovs-single-swatch-hgap));
+				}
+
+				.xt_woovs-featured-4 & {
+					flex: var(--xt-woovs-single-label-flex) 0 calc((100% / calc(var(--xt-woovs-single-labels-per-row) * 0.7)) - var(--xt-woovs-single-swatch-hgap));
+				}
+
+				.xt_woovs-featured-5 & {
+					flex: var(--xt-woovs-single-label-flex) 0 calc((100% / calc(var(--xt-woovs-single-labels-per-row) * 0.6)) - var(--xt-woovs-single-swatch-hgap));
+				}
+			}
+
+			.xtfw-no-touchevents &:not(.xt_woovs-selected):not(.xt_woovs-disabled):hover {
+				box-shadow: inset 0 0 0 2px #c8c8c8;
+				color: #000;
+				background-color: #c8c8c8;
+			}
+
+			&.xt_woovs-selected{
+				color: #fff;
+				background-color: #000000;
+				box-shadow: inset 0 0 0 2px #000000;
+			}
+
+		}
+		&.swatch-color {
+			.swatch-inner {
+				width: 40px;
+				height: 40px;
+				padding: 2px;
+				box-shadow: inset 0 0 0 1px #ddd;
+			}
+			.xtfw-no-touchevents &:not(.xt_woovs-selected):not(.xt_woovs-disabled):hover .swatch-inner {
+				box-shadow: inset 0 0 0 2px #c8c8c8;
+			}
+			&.xt_woovs-selected .swatch-inner {
+				box-shadow: inset 0 0 0 2px #000000;
+			}
+		}
+		&.swatch-image {
+			width: 50px;
+			height: auto;
+			.swatch-inner {
+				width: 50px;
+				padding: 2px;
+				box-shadow: inset 0 0 0 1px #ddd;
+			}
+			.xtfw-no-touchevents &:not(.xt_woovs-selected):not(.xt_woovs-disabled):hover .swatch-inner {
+				box-shadow: inset 0 0 0 2px #c8c8c8;
+			}
+			&.xt_woovs-selected .swatch-inner {
+				box-shadow: inset 0 0 0 2px #000000;
+			}
+		}
+	}
+}

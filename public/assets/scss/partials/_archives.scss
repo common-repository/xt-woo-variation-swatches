@@ -1,0 +1,23 @@
+.xt_woovs-archives {
+	.xt_woovs-tooltip {
+		-webkit-border-radius: 5%;
+		-moz-border-radius: 5%;
+		border-radius: 5%;
+		img {
+			-webkit-border-radius: 5%;
+			-moz-border-radius: 5%;
+			border-radius: 5%;
+		}
+		&.tooltip-image {
+			border-width: 2px;
+			&:after {
+				top: calc(100% + 2px - 1px);
+			}
+		}
+		background-color: #161616;
+		border-color: #161616;
+		&:after {
+			border-top-color: #161616;
+		}
+	}
+}
